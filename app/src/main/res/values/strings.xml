@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="about_us_intro">数字展馆是指利用数字化手段，实现藏品保存，陈列展示，科学研究和社会教育等功能，构筑虚拟世界的展览馆；对于普遍意义上的数字展览馆来说，是指利用数字技术，对文物（包括可移动文物和不可移动文物）信息进行全方位和多形式采集，标准化存储和加工，并通过网络连接和一系列相关规定，协议，实现文物信息的资源共享，有效利用和科学管理。</string>
+    <string name="about_us_subTitle">数字展馆</string>
+    <string name="my_info_avatar">头像</string>
+    <string name="my_info_nickName">昵称</string>
+    <string name="account_security">账号安全</string>
+
+</resources>
