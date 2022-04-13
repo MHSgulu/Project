@@ -19,8 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:navigationIcon="@mipmap/ic_arrow_back_ios_new_black_24"
-            app:navigationIconTint="@color/c_FE6C30"
+            app:navigationIcon="@mipmap/ic_nav_back"
             app:title="我的资料"
             app:titleCentered="true"
             app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title"
@@ -66,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="22dp"
         android:layout_marginEnd="9dp"
-        android:background="@color/c_FE6C30"
+        android:background="@mipmap/ic_next"
         tools:ignore="ContentDescription" />
 
     <TextView
@@ -99,7 +98,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="85dp"
         android:layout_marginEnd="9dp"
-        android:background="@color/c_FE6C30"
+        android:background="@mipmap/ic_next"
         tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

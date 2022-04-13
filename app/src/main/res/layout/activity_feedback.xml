@@ -19,8 +19,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:navigationIcon="@mipmap/ic_arrow_back_ios_new_black_24"
-            app:navigationIconTint="@color/c_FE6C30"
+            app:navigationIcon="@mipmap/ic_nav_back"
             app:title="意见反馈"
             app:titleCentered="true"
             app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title"
@@ -67,7 +66,7 @@
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="55dp"
         android:text="提交"
         android:textColor="@color/white"
         android:textSize="16sp"

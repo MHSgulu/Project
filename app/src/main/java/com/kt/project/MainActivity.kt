@@ -51,5 +51,29 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        var textView7:TextView = findViewById(R.id.tv7)
+        textView7.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView8:TextView = findViewById(R.id.tv8)
+        textView8.setOnClickListener {
+            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView9:TextView = findViewById(R.id.tv9)
+        textView9.setOnClickListener {
+            val intent = Intent(this, BindMobileActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView10:TextView = findViewById(R.id.tv10)
+        textView10.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

@@ -20,7 +20,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:navigationIcon="@mipmap/ic_arrow_back_ios_new_black_24"
+            app:navigationIcon="@mipmap/ic_nav_back"
             app:navigationIconTint="@color/c_FE6C30"
             app:title="关于我们"
             app:titleCentered="true"
