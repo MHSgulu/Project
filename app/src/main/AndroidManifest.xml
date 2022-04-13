@@ -10,46 +10,50 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
-            android:name=".LoginActivity"
+            android:name=".sjzl.MyWareHouseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common"/>
+        <activity
+            android:name=".sjzl.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".BindMobileActivity"
+            android:name=".sjzl.BindMobileActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".ForgotPasswordActivity"
+            android:name=".sjzl.ForgotPasswordActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".sjzl.RegisterActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".FeedbackActivity"
+            android:name=".sjzl.FeedbackActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".ModifyPasswordActivity"
+            android:name=".sjzl.ModifyPasswordActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".ChangePhoneActivity"
+            android:name=".sjzl.ChangePhoneActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".AccountSecurityActivity"
+            android:name=".sjzl.AccountSecurityActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".MyInfoActivity"
+            android:name=".sjzl.MyInfoActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".AboutUsActivity"
+            android:name=".sjzl.AboutUsActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
         <activity
-            android:name=".MainActivity"
+            android:name=".sjzl.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

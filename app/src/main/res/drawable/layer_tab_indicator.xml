@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当Tab在xml设置指示器高度、宽度、颜色等属性时,此处设置可以突破 -->
+    <item
+        android:width="30dp"
+        android:gravity="center_horizontal">
+        <shape>
+            <corners android:radius="2dp" />
+
+            <size android:height="2dp" />
+            <solid android:color="@color/teal_200" />
+        </shape>
+    </item>
+</layer-list>

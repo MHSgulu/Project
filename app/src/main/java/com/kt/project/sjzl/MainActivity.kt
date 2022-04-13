@@ -1,10 +1,10 @@
-package com.kt.project
+package com.kt.project.sjzl
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.kt.project.R
 
 class MainActivity : AppCompatActivity() {
 
@@ -72,6 +72,12 @@ class MainActivity : AppCompatActivity() {
         var textView10:TextView = findViewById(R.id.tv10)
         textView10.setOnClickListener {
             val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView11:TextView = findViewById(R.id.tv11)
+        textView11.setOnClickListener {
+            val intent = Intent(this, MyWareHouseActivity::class.java)
             startActivity(intent)
         }
 

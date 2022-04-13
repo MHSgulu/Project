@@ -10,5 +10,6 @@
     <string name="forgot_password">忘记密码</string>
     <string name="bind_mobile_number">绑定手机号</string>
     <string name="login">登录</string>
+    <string name="my_warehouse">我的仓库</string>
 
 </resources>
