@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
 import com.kt.project.R
 
 class WareTypeFragment : Fragment() {
@@ -15,6 +16,8 @@ class WareTypeFragment : Fragment() {
     }
 
     private lateinit var viewModel: WareTypeViewModel
+
+    private lateinit var recyclerView: RecyclerView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -26,7 +29,12 @@ class WareTypeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(this).get(WareTypeViewModel::class.java)
-        // TODO: Use the ViewModel
+
+        recyclerView = view.findViewById(R.id.list)
+        val adapter =  WareHouseTypeAdapter()
+        recyclerView.adapter = adapter
+
+
     }
 
 }

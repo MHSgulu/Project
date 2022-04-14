@@ -10,9 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
-            android:name=".sjzl.MyWareHouseActivity"
+            android:name=".UploadAudioActivity"
             android:exported="false"
             android:theme="@style/Theme.Common"/>
+        <activity
+            android:name=".sjzl.ModelDiagramActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.VideoDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.AudioDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.CanvasDetailsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.MyWareHouseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
         <activity
             android:name=".sjzl.LoginActivity"
             android:exported="false" />

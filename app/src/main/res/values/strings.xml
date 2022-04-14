@@ -11,5 +11,8 @@
     <string name="bind_mobile_number">绑定手机号</string>
     <string name="login">登录</string>
     <string name="my_warehouse">我的仓库</string>
+    <string name="details">详情</string>
+    <string name="model_diag_intro">大气磅礴的长城山水画在抒发画家高昂的艺术热情的同时，更能带给观赏者强烈的民族自豪感。刘燕姣老师的这幅《万里雄风》蕴藏着一种感人肺腑的无形神韵。给人以意奇，景阔，大气之感。从画面构图看，作品浑厚磅礴，动静结合，涂色清幽。画家绘画山水时对带着对万里长城的无限敬畏之心展开了丰富的想象。因此画面中长城更显得气势磅礴，撼人心魄。此幅在当下万众一心共筑 梦的大背景下更加凸显了励志意义，客厅装饰的理想选择。</string>
+    <string name="upload_audio">上传音频</string>
 
 </resources>

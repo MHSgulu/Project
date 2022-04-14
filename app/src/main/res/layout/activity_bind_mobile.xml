@@ -49,7 +49,17 @@
         android:layout_marginTop="38dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="23dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:inputType="phone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="23dp"
+        android:background="@color/c_E1E1E1"
+        app:layout_constraintTop_toBottomOf="@+id/edit_phone" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -73,7 +83,17 @@
         android:layout_marginTop="110dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="230dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:inputType="number"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="23dp"
+        android:background="@color/c_E1E1E1"
+        app:layout_constraintTop_toBottomOf="@+id/edit_code" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
@@ -84,7 +104,7 @@
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/appbar"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="101dp"
+        android:layout_marginTop="91dp"
         android:layout_marginEnd="17dp"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         app:strokeColor="@color/c_FE6C30"
@@ -112,7 +132,17 @@
         android:layout_marginTop="172dp"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="23dp"
-        android:background="@null"/>
+        android:background="@null"
+        android:inputType="textPassword"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="23dp"
+        android:background="@color/c_E1E1E1"
+        app:layout_constraintTop_toBottomOf="@+id/edit_password" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"

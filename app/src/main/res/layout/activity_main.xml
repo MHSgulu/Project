@@ -105,9 +105,45 @@
             android:id="@+id/tv12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="画布详情"
             android:textSize="30sp"
             android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="音频详情"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频详情"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="三维模型详情"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传音频"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
 
     </LinearLayout>
 
