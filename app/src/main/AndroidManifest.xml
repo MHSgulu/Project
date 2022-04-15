@@ -10,9 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project">
         <activity
-            android:name=".UploadAudioActivity"
+            android:name=".sjzl.UploadModelActivity"
             android:exported="false"
             android:theme="@style/Theme.Common"/>
+        <activity
+            android:name=".sjzl.UploadCanvasActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.UploadVideoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
+        <activity
+            android:name=".sjzl.UploadAudioActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common" />
         <activity
             android:name=".sjzl.ModelDiagramActivity"
             android:exported="false"

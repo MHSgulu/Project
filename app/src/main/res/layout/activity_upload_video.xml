@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             app:navigationIcon="@mipmap/ic_nav_back"
             app:navigationIconTint="@color/c_FE6C30"
-            app:title="@string/upload_audio"
+            app:title="@string/upload_video"
             app:titleCentered="true"
             app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title"
             app:titleTextColor="@color/c_FE6C30" />
@@ -31,12 +31,12 @@
         android:id="@+id/cover"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@mipmap/img_upload_audio"
+        android:layout_marginTop="24dp"
+        android:background="@mipmap/img_upload_video"
         android:scaleType="centerCrop"
-        app:layout_constraintTop_toBottomOf="@id/appbar"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar"
         tools:ignore="ContentDescription" />
 
     <View
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="上传音频文件"
+        android:text="上传视频文件"
         android:textColor="@color/c_666666"
         android:textSize="15sp"
         app:layout_constraintTop_toBottomOf="@+id/cover"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="85dp"
         android:layout_marginStart="12dp"
-        android:text="音频名称"
+        android:text="视频名称"
         android:textColor="@color/c_FE6C30"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/cover"
@@ -74,7 +74,7 @@
         android:id="@+id/edit_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="请输入音频名称"
+        android:hint="请输入视频名称"
         android:textColorHint="@color/c_666666"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/cover"
@@ -92,6 +92,28 @@
         android:layout_marginEnd="23dp"
         android:background="@color/c_E4E7EB"
         app:layout_constraintTop_toBottomOf="@+id/edit_name" />
+
+    <EditText
+        android:id="@+id/edit_intro"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:gravity="start"
+        android:hint="请输入介绍"
+        android:textColorHint="@color/c_666666"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="23dp"
+        android:background="@null" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/c_E4E7EB"
+        app:layout_constraintTop_toBottomOf="@+id/edit_intro" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"

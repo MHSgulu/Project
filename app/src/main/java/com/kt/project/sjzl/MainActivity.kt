@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.kt.project.R
-import com.kt.project.UploadAudioActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -109,6 +108,24 @@ class MainActivity : AppCompatActivity() {
         var textView16:TextView = findViewById(R.id.tv16)
         textView16.setOnClickListener {
             val intent = Intent(this, UploadAudioActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView17:TextView = findViewById(R.id.tv17)
+        textView17.setOnClickListener {
+            val intent = Intent(this, UploadVideoActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView18:TextView = findViewById(R.id.tv18)
+        textView18.setOnClickListener {
+            val intent = Intent(this, UploadCanvasActivity::class.java)
+            startActivity(intent)
+        }
+
+        var textView19:TextView = findViewById(R.id.tv19)
+        textView19.setOnClickListener {
+            val intent = Intent(this, UploadModelActivity::class.java)
             startActivity(intent)
         }
 
