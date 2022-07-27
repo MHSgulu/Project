@@ -2,13 +2,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kt.project">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project">
+        android:theme="@style/Theme.Project"
+        android:networkSecurityConfig="@xml/network_config">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Project">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 数字展览 -->
+        <activity android:name=".sjzl.GuideDigitalExhibitionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common"/>
         <activity
             android:name=".sjzl.UploadModelActivity"
             android:exported="false"
@@ -84,15 +103,16 @@
             android:name=".sjzl.AboutUsActivity"
             android:exported="false"
             android:theme="@style/Theme.Common" />
-        <activity
-            android:name=".sjzl.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <!-- 海外电商 -->
+        <activity android:name=".hwds.GuideOverseasEcommerceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OE"/>
+        <activity android:name=".hwds.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OE"/>
+        <activity android:name=".hwds.BindMobileNumberActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

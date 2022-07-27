@@ -1,174 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <LinearLayout
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context=".sjzl.MainActivity"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:layout_height="?attr/actionBarSize"
+        android:backgroundTint="@color/white">
 
-        <TextView
-            android:id="@+id/tv1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="关于我们"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="我的资料"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="账号安全"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="更换手机号"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="修改登录密码"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="意见反馈"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="注册"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="忘记密码"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="绑定手机号"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="登录"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="我的仓库"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="画布详情"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="音频详情"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="视频详情"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="三维模型详情"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv16"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="上传音频"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="上传视频"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="上传画布"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <TextView
-            android:id="@+id/tv19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="上传三维模型图"
-            android:textSize="30sp"
-            android:layout_marginTop="30dp"/>
-
-        <Space
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="50dp"/>
+            android:layout_height="match_parent"
+            app:title="布局合集"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title"
+            app:titleTextColor="@color/black" />
 
-    </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
-</ScrollView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcv_de"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/digital_exhibition" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/mcv_oe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:clickable="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/overseas_ecommerce" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>

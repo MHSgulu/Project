@@ -6,13 +6,14 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.kt.project.R
 
-class MainActivity : AppCompatActivity() {
+
+class GuideDigitalExhibitionActivity : AppCompatActivity() {
 
     private lateinit var textView1:TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_guide_de)
 
 
         textView1 = findViewById(R.id.tv1)
