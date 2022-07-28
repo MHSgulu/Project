@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_bar_height"
+        android:backgroundTint="@color/white"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:navigationIcon="@mipmap/ic_nav_back_black"
+            app:title="消息详情"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title_oe" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统升级维护通知"
+        android:textSize="16sp"
+        android:textColor="@color/c_333333"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022-06-23 04:25"
+        android:textSize="12sp"
+        android:textColor="@color/c_999999"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统升级维护通知：平台将于凌晨12:00-4:00进行系统维护，感谢您的理解与支持！
+系统维护期间，平台将陆续暂停相关服务，恢复时间另行通知。
+由此给您带来不便，敬请谅解。"
+        android:textSize="14sp"
+        android:textColor="@color/c_666666"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="20dp"/>
+
+</LinearLayout>

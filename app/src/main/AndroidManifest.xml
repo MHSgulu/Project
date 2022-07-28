@@ -113,6 +113,24 @@
             android:theme="@style/Theme.OE"/>
         <activity android:name=".hwds.BindMobileNumberActivity"
             android:exported="false"/>
+        <activity android:name=".hwds.EditInformationActivity"
+            android:exported="false" />
+        <activity android:name=".hwds.ModifyPhoneNumberActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.RechargeActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.WithdrawActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.ModifyLoginPasswordActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.VerifiedNameActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.AppSettingsActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MessageDetailsActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.InvitedPersonActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
