@@ -8,11 +8,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Project"
-        android:networkSecurityConfig="@xml/network_config">
-
+        android:theme="@style/Theme.Project">
+        <activity
+            android:name=".InvitedPersonListActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -22,16 +24,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- 数字展览 -->
-        <activity android:name=".sjzl.GuideDigitalExhibitionActivity"
+        </activity> <!-- 数字展览 -->
+        <activity
+            android:name=".sjzl.GuideDigitalExhibitionActivity"
             android:exported="false"
-            android:theme="@style/Theme.Common"/>
+            android:theme="@style/Theme.Common" />
         <activity
             android:name=".sjzl.UploadModelActivity"
             android:exported="false"
-            android:theme="@style/Theme.Common"/>
+            android:theme="@style/Theme.Common" />
         <activity
             android:name=".sjzl.UploadCanvasActivity"
             android:exported="false"
@@ -102,34 +103,54 @@
         <activity
             android:name=".sjzl.AboutUsActivity"
             android:exported="false"
-            android:theme="@style/Theme.Common" />
-
-        <!-- 海外电商 -->
-        <activity android:name=".hwds.GuideOverseasEcommerceActivity"
+            android:theme="@style/Theme.Common" /> <!-- 海外电商 -->
+        <activity
+            android:name=".hwds.GuideOverseasEcommerceActivity"
             android:exported="false"
-            android:theme="@style/Theme.OE"/>
-        <activity android:name=".hwds.LoginActivity"
+            android:theme="@style/Theme.OE" />
+        <activity
+            android:name=".hwds.LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.OE"/>
-        <activity android:name=".hwds.BindMobileNumberActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.EditInformationActivity"
+            android:theme="@style/Theme.OE" />
+        <activity
+            android:name=".hwds.BindMobileNumberActivity"
             android:exported="false" />
-        <activity android:name=".hwds.ModifyPhoneNumberActivity"
+        <activity
+            android:name=".hwds.EditInformationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.ModifyPhoneNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.RechargeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.WithdrawActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.ModifyLoginPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.VerifiedNameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.AppSettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.InvitedPersonActivity"
+            android:exported="false" />
+        <activity android:name=".hwds.InvitedPersonListActivity"
             android:exported="false"/>
-        <activity android:name=".hwds.RechargeActivity"
+        <activity android:name=".hwds.MyFollowActivity"
             android:exported="false"/>
-        <activity android:name=".hwds.WithdrawActivity"
+        <activity android:name=".hwds.MyFansActivity"
             android:exported="false"/>
-        <activity android:name=".hwds.ModifyLoginPasswordActivity"
+        <activity android:name=".hwds.MessageFollowActivity"
             android:exported="false"/>
-        <activity android:name=".hwds.VerifiedNameActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.AppSettingsActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageDetailsActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.InvitedPersonActivity"
+        <activity android:name=".hwds.MessageSystemActivity"
             android:exported="false"/>
     </application>
 

@@ -134,6 +134,42 @@
                 android:text="邀请的人"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/bt_12"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="我的关注"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_13"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="我的粉丝"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_14"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="关注消息"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_15"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="系统消息"
+                android:textSize="20sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="50dp" />

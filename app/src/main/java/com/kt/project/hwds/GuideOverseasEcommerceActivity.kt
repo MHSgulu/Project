@@ -71,10 +71,29 @@ class GuideOverseasEcommerceActivity : AppCompatActivity() {
         }
 
         binding.bt11.setOnClickListener {
-            val intent = Intent(this, InvitedPersonActivity::class.java)
+            val intent = Intent(this, InvitedPersonListActivity::class.java)
             startActivity(intent)
         }
 
+        binding.bt12.setOnClickListener {
+            val intent = Intent(this, MyFollowActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt13.setOnClickListener {
+            val intent = Intent(this, MyFansActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt14.setOnClickListener {
+            val intent = Intent(this, MessageFollowActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt15.setOnClickListener {
+            val intent = Intent(this, MessageSystemActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }
