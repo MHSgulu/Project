@@ -152,6 +152,17 @@
             android:exported="false"/>
         <activity android:name=".hwds.MessageSystemActivity"
             android:exported="false"/>
+        <activity android:name=".hwds.MessageInvitedActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MessageCommissionActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MessageOrderActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MessageActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MyAssetsActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MyInvitationActivity" />
     </application>
 
 </manifest>

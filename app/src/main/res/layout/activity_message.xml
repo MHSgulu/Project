@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/c_F8F8F8"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -18,8 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:navigationIcon="@mipmap/ic_nav_back_black"
-            app:title="系统消息"
+            app:title="消息"
             app:titleCentered="true"
             app:titleTextAppearance="@style/TextAppearance.Widget.MaterialToolbar.title_oe" />
 
@@ -30,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        tools:itemCount="8"
-        tools:listitem="@layout/item_message_system" />
+        tools:itemCount="5"
+        tools:listitem="@layout/item_message" />
 
 </LinearLayout>
