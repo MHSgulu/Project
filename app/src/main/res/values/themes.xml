@@ -59,4 +59,29 @@
         <item name="elevation">0dp</item>
     </style>
 
+    <style name="MyButton.OrderButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <!--<item name="android:insetLeft">1dp</item>
+        <item name="android:insetRight">1dp</item>-->
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">3dp</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="M3.MyButton.OrderNegativeButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="strokeColor">@color/c_E8E8E8</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
 </resources>

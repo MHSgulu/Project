@@ -224,6 +224,24 @@
                 android:text="我的邀请"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/bt_22"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="我的"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_23"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="我的订单"
+                android:textSize="20sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="50dp" />

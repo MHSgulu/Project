@@ -162,7 +162,13 @@
             android:exported="false"/>
         <activity android:name=".hwds.MyAssetsActivity"
             android:exported="false"/>
-        <activity android:name=".hwds.MyInvitationActivity" />
+        <activity android:name=".hwds.MyInvitationActivity"
+            android:exported="false"/>
+        <activity android:name=".hwds.MyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OE"/>
+        <activity android:name=".hwds.MyOrderActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>

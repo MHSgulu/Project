@@ -125,6 +125,16 @@ class GuideOverseasEcommerceActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.bt22.setOnClickListener {
+            val intent = Intent(this, MyActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt23.setOnClickListener {
+            val intent = Intent(this, MyOrderActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
