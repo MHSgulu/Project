@@ -169,6 +169,13 @@
             android:theme="@style/Theme.OE"/>
         <activity android:name=".hwds.MyOrderActivity"
             android:exported="false"/>
+        <activity android:name=".hwds.OrderDetailsActivity" />
+        <activity android:name=".hwds.MyLikedActivity" />
+        <activity android:name=".hwds.EarningsRecordActivity" />
+        <activity android:name=".hwds.CommodityIncomeActivity" />
+        <activity android:name=".hwds.MyHomePageActivity"
+            android:exported="false"
+            android:theme="@style/Theme.OE"/>
     </application>
 
 </manifest>

@@ -242,6 +242,51 @@
                 android:text="我的订单"
                 android:textSize="20sp" />
 
+            <Button
+                android:id="@+id/bt_24"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="订单详情"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_25"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="赞过的人"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_26"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="收益记录"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_27"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="商品收益"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/bt_28"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="个人主页"
+                android:textSize="20sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="50dp" />

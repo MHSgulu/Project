@@ -6,6 +6,7 @@
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/bg_login_card.xml" value="0.296" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/gradient_bg_my_assets.xml" value="0.25" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/layer_tab_indicator.xml" value="0.3065" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_commodity_card.xml" value="0.3505" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_delete_button.xml" value="0.3065" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_edit_button.xml" value="0.296" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_invitation_card.xml" value="0.3305" />
@@ -15,17 +16,21 @@
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_order_food.xml" value="0.3305" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_order_reservation.xml" value="0.3305" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_see_details.xml" value="0.296" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_stroke_edit_info.xml" value="0.2725" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_switch_language_card.xml" value="0.3305" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_switch_language_select_card.xml" value="0.3305" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_tab_indicator.xml" value="0.2725" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/drawable/shape_verified_name_card.xml" value="0.3065" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_about_us.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_app_settings.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_bind_mobile_number.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_canvas_details.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_commodity_income.xml" value="0.5" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_earnings_record.xml" value="0.25" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_edit_information.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_guide_digital)exhibition.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_guide_digital_exhibition.xml" value="0.24728260869565216" />
-        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_guide_oe.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_guide_oe.xml" value="0.35167583791895946" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_guide_overseas_ecommerce.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_invited_person.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_invited_person_list.xml" value="0.36614583333333334" />
@@ -46,14 +51,19 @@
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_assets.xml" value="0.25" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_fans.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_follow.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_home_page.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_invitation.xml" value="0.33" />
-        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_order.xml" value="0.22" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_liked.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_my_order.xml" value="0.33" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_order_details.xml" value="0.25" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_recharge.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_register.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_verified_name.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/activity_withdraw.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/fragment_order_list.xml" value="0.25" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_assets_details.xml" value="0.5" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_commodity_income.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_earnings_record.xml" value="0.5" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_invited_person.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_message.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_message_commission.xml" value="0.36614583333333334" />
@@ -63,6 +73,7 @@
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_message_system.xml" value="0.33" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_my_fans.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_my_follow.xml" value="0.36614583333333334" />
+        <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_my_liked.xml" value="0.36614583333333334" />
         <entry key="..\:/project_android/ProjectGit/app/src/main/res/layout/item_order.xml" value="0.5" />
       </map>
     </option>

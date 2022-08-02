@@ -135,6 +135,30 @@ class GuideOverseasEcommerceActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.bt24.setOnClickListener {
+            val intent = Intent(this, OrderDetailsActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt25.setOnClickListener {
+            val intent = Intent(this, MyLikedActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt26.setOnClickListener {
+            val intent = Intent(this, EarningsRecordActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt27.setOnClickListener {
+            val intent = Intent(this, CommodityIncomeActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.bt28.setOnClickListener {
+            val intent = Intent(this, MyHomePageActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
