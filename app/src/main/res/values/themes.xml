@@ -45,6 +45,12 @@
         <item name="android:textStyle">normal</item>
     </style>
 
+    <style name="TextAppearance.Widget.MaterialToolbar.title_sleep" parent="">
+        <item name="android:textColor">@color/purple_200</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
     <style name="MyHomePage.Title" parent="">
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">18sp</item>

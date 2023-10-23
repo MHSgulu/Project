@@ -142,40 +142,62 @@
         <activity
             android:name=".hwds.InvitedPersonActivity"
             android:exported="false" />
-        <activity android:name=".hwds.InvitedPersonListActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MyFollowActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MyFansActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageFollowActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageSystemActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageInvitedActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageCommissionActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageOrderActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MessageActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MyAssetsActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MyInvitationActivity"
-            android:exported="false"/>
-        <activity android:name=".hwds.MyActivity"
+        <activity
+            android:name=".hwds.InvitedPersonListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MyFollowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MyFansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageFollowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageSystemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageInvitedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageCommissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MyAssetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MyInvitationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hwds.MyActivity"
             android:exported="false"
-            android:theme="@style/Theme.OE"/>
-        <activity android:name=".hwds.MyOrderActivity"
-            android:exported="false"/>
+            android:theme="@style/Theme.OE" />
+        <activity
+            android:name=".hwds.MyOrderActivity"
+            android:exported="false" />
         <activity android:name=".hwds.OrderDetailsActivity" />
         <activity android:name=".hwds.MyLikedActivity" />
         <activity android:name=".hwds.EarningsRecordActivity" />
         <activity android:name=".hwds.CommodityIncomeActivity" />
-        <activity android:name=".hwds.MyHomePageActivity"
+        <activity
+            android:name=".hwds.MyHomePageActivity"
             android:exported="false"
-            android:theme="@style/Theme.OE"/>
+            android:theme="@style/Theme.OE" />
+        <!-- 睡眠 -->
+        <activity android:name=".sleep.SleepGuideActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common"/>
+        <activity
+            android:name=".sleep.RestPlanActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Common"/>
     </application>
 
 </manifest>

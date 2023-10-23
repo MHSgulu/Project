@@ -43,12 +43,12 @@
     <color name="c_E5F1FC">#FFE5F1FC</color>
     <color name="c_6B89B7">#FF6B89B7</color>
 
-
-
-
-
-
-
+    <!-- 睡眠 -->
+    <color name="c_0C1439">#0C1439</color>
+    <color name="c_1E2744">#1E2744</color>
+    <color name="c_E6E8EE">#E6E8EE</color>
+    <color name="c_387AFF">#387AFF</color>
+    <color name="c_707070">#707070</color>
 
 
 </resources>
